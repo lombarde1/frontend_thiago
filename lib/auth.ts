@@ -15,7 +15,7 @@ export const registerSchema = z.object({
 export type LoginData = z.infer<typeof loginSchema>;
 export type RegisterData = z.infer<typeof registerSchema>;
 
-const API_URL = 'https://kcoin.evolucaohot.online/api';
+const API_URL = 'https://call.evolucaohot.online';
 
 export async function login(data: LoginData) {
   const response = await fetch(`${API_URL}/auth/login`, {

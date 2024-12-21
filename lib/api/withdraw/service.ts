@@ -2,7 +2,7 @@
 
 import { getUserId } from '@/lib/auth/storage';
 
-const API_URL = 'https://kcoin.evolucaohot.online/api';
+const API_URL = 'https://call.evolucaohot.online';
 
 export async function requestBalanceWithdraw(amount: number) {
   const userId = getUserId();

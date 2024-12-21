@@ -25,7 +25,7 @@ interface AuthResponse {
   };
 }
 
-const API_URL = 'https://kcoin.evolucaohot.online/api';
+const API_URL = 'https://call.evolucaohot.online';
 
 export async function login(data: LoginData): Promise<AuthResponse> {
   const response = await fetch(`${API_URL}/auth/login`, {

@@ -3,7 +3,7 @@
 import { getUserId } from '@/lib/auth/storage';
 import type { Activity } from './types';
 
-const API_URL = 'https://kcoin.evolucaohot.online/api';
+const API_URL = 'https://call.evolucaohot.online';
 
 export async function getActivityHistory(): Promise<Activity[]> {
   const userId = getUserId();
