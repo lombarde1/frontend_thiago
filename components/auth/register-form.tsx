@@ -158,7 +158,7 @@ export function RegisterForm() {
                   {validatingReferral 
                     ? "Validando código de indicação..." 
                     : referralValid
-                      ? "Código de indicação válido! Você receberá R$ 50,00 após seu primeiro depósito."
+                      ? "Código de indicação válido!"
                       : "Código de indicação inválido"}
                 </p>
               </div>
