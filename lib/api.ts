@@ -1,6 +1,6 @@
 import { getToken } from './auth';
 
-const API_URL = 'https://call.evolucaohot.online';
+const API_URL = 'https://call.evolucaohot.online/api';
 
 async function fetchWithAuth(endpoint: string, options: RequestInit = {}) {
   const token = getToken();

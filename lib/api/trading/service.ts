@@ -1,6 +1,6 @@
 import { getUserId } from '@/lib/auth/storage';
 
-const API_URL = 'https://call.evolucaohot.online';
+const API_URL = 'https://call.evolucaohot.online/api';
 
 export async function buyCrypto(symbol: string, amount: number) {
   const userId = getUserId();

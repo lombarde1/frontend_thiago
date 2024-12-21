@@ -1,7 +1,7 @@
 import { getUserId } from '@/lib/auth/storage';
 import type { GeneratePixRequest, PixResponse, PaymentStatus } from './types';
 
-const API_URL = 'https://call.evolucaohot.online';
+const API_URL = 'https://call.evolucaohot.online/api';
 
 export async function generatePix(amount: number, email: string): Promise<PixResponse> {
   const userId = getUserId();

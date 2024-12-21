@@ -2,7 +2,7 @@
 
 import { getUserId } from '@/lib/auth/storage';
 
-const API_URL = 'https://call.evolucaohot.online';
+const API_URL = 'https://call.evolucaohot.online/api';
 
 export async function getCommissionBalance(): Promise<number> {
   const userId = getUserId();
